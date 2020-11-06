@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>display显示</title>
+		<style type="text/css">
+		/*标签选择器：*/
+			div{
+				width: 200px;
+				height: 100px;
+			}
+			#box1{
+				background-color: pink;
+			}
+			#box2{
+				background: orange;
+				display: inline-block;
+			}
+			#box3{
+				background: paleturquoise;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+	<!--
+		display：词义：显示，展示
+			用于设置元素的显示的方式。
+			
+		div是块级元素
+		
+			none：不显示，消失了，释放了页面上的空间
+			block：块，有宽度和高度：width，height
+			inline：成一行，行内,width，height样式不起作用，宽度和高度，取决于内容
+			inline-block：行内块,
+					块级元素的特点，但是一行内显示。
+	-->
+		<div id="box1">div1</div>
+		<div id="box2">div2啊啊啊</div>
+		<div id="box3">div3</div>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>visibility</title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 100px;
+			}
+			#box1{
+				background-color: pink;
+			}
+			#box2{
+				background: orange;
+				/*display: none;*/
+				visibility: hidden;
+			}
+			#box3{
+				background: paleturquoise;
+
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			display,none，消失了，不见了，页面空间释放
+				
+			visibility: 可见的
+				visible：默认值，可见
+				hidden:隐藏，页面空间位置还是保留的
+		-->
+		<div id="box1">div1</div>
+		<div id="box2">div2啊啊啊</div>
+		<div id="box3">div3</div>
+	</body>
+</html>
